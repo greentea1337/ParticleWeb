@@ -6,7 +6,7 @@ from request_handler import RequestHandler
 from threaded_http_server import ThreadedHTTPServer
 
 class Server:
-    def __init__(self, host='192.168.0.161', port=8080, https=False):
+    def __init__(self, host='localhost', port=8080, https=False):
         self.host = host
         self.port = port
         self.https = https
